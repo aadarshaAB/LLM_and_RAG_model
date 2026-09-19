@@ -1,0 +1,78 @@
+LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications. As a language model integration framework, LangChain's use-cases largely overlap with those of language models in general, including document analysis and summarization, chatbots, and code analysis.[2]
+
+History
+LangChain was launched in October 2022 as an open source project by Harrison Chase, while working at machine learning startup Robust Intelligence. In April 2023, LangChain had incorporated and the new startup raised over $20 million in funding at a valuation of at least $200 million from venture firm Sequoia Capital, a week after announcing a $10 million seed investment from Benchmark.[3][4]
+
+In the third quarter of 2023, the LangChain Expression Language (LCEL) was introduced, which provides a declarative way to define chains of actions.[5][6]
+
+In October 2023 LangChain introduced LangServe, a deployment tool to host LCEL code as a production-ready API.[7]
+
+In February 2024 LangChain released LangSmith, a closed-source observability and evaluation platform for LLM applications, and announced a US $25 million Series A led by Sequoia Capital.[8] On 14 May 2025 the company launched LangGraph Platform into general availability, providing managed infrastructure for deploying long-running, stateful AI agents.[9]
+
+In April 2025, LangChain was featured in the Forbes AI 50 list.[10]
+
+Capabilities
+LangChain's developers highlight the framework's applicability to use-cases including chatbots,[11] retrieval-augmented generation,[12] document summarization,[13] and synthetic data generation.[14] InfoWorld described LangChain as a software development kit that simplifies the connection between large language models and external applications through a unified API.[15] The magazine also wrote that it can be used to bring in context from sources such as PDFs, web pages, CSV files and relational databases, while making it easier for developers to change the underlying model without major code changes.[15]
+
+As of March 2023, LangChain included integrations with systems including Amazon, Google, and Microsoft Azure cloud storage;[16] API wrappers for news, movie information, and weather; Bash for summarization, syntax and semantics checking, and execution of shell scripts; multiple web scraping subsystems and templates; few-shot learning prompt generation support; finding and summarizing "todo" tasks in code; Google Drive documents, spreadsheets, and presentations summarization, extraction, and creation; Google Search and Microsoft Bing web search;[17] OpenAI, Anthropic, and Hugging Face language models; iFixit repair guides and wikis search and summarization; MapReduce for question answering, combining documents, and question generation; N-gram overlap scoring; PyPDF, pdfminer, fitz, and pymupdf for PDF file text extraction and manipulation; Python and JavaScript code generation, analysis, and debugging; Milvus vector database[18] to store and retrieve vector embeddings; Weaviate vector database[19] to cache embedding and data objects; Redis cache database storage; Python RequestsWrapper and other methods for API requests; SQL and NoSQL databases including JSON support; Streamlit, including for logging; text mapping for k-nearest neighbors search; time zone conversion and calendar operations; tracing and recording stack symbols in threaded and asynchronous subprocess runs; and the WolframAlpha website and SDK.[20] As of April 2023, it can read from more than 50 document types and data sources
+LangChain tools
+Tool name	Account required?	API key required?	Licencing	Features	Documentation URL
+Alpha Vantage	No	Yes	Proprietary	Financial data, analytics	https://python.langchain.com/docs/integrations/tools/alpha_vantage
+Apify	No	Yes	Commercial	Web scraping, automation	https://python.langchain.com/docs/integrations/providers/apify/
+ArXiv	No	No	Open Source	Scientific papers, research	https://python.langchain.com/docs/integrations/tools/arxiv
+AWS Lambda	Yes	Yes	Proprietary	Serverless computing	https://python.langchain.com/docs/integrations/tools/awslambda
+Bash	No	No	Open source	Shell environment access	https://python.langchain.com/docs/integrations/tools/bash
+Bearly Code Interpreter	No	Yes	Commercial	Remote Python code execution	https://python.langchain.com/docs/integrations/tools/bearly
+Bing Search	No	Yes	Proprietary	Search engine	https://python.langchain.com/docs/integrations/tools/bing_search
+Brave Search	No	No	Open source	Privacy-focused search	https://python.langchain.com/docs/integrations/tools/brave_search
+ChatGPT Plugins	No	Yes	Proprietary	ChatGPT	https://python.langchain.com/docs/integrations/tools/chatgpt_plugins
+Connery	No	Yes	Commercial	API actions	https://python.langchain.com/docs/integrations/tools/connery
+Dall-E Image Generator	No	Yes	Proprietary	Text-to-image generation	https://python.langchain.com/docs/integrations/tools/dalle_image_generator
+DataForSEO	No	Yes	Commercial	SEO data, analytics	https://python.langchain.com/docs/integrations/tools/dataforseo
+DuckDuckGo Search	No	No	Open source	Privacy-focused search	https://python.langchain.com/docs/integrations/tools/ddg
+E2B Data Analysis	No	No	Open source	Data analysis	https://python.langchain.com/docs/integrations/tools/e2b_data_analysis
+Eden AI	No	Yes	Commercial	AI tools, APIs	https://python.langchain.com/docs/integrations/tools/edenai_tools
+Eleven Labs Text2Speech	No	Yes	Commercial	Text-to-speech	https://python.langchain.com/docs/integrations/tools/eleven_labs_tts
+Exa Search	No	Yes	Commercial	Web search	https://python.langchain.com/docs/integrations/tools/exa_search
+File System	No	No	Open source	File system interaction	https://python.langchain.com/docs/integrations/tools/filesystem
+Golden Query	No	Yes	Commercial	Natural language queries	https://python.langchain.com/docs/integrations/tools/golden_query
+Google Cloud Text-to-Speech	Yes	Yes	Proprietary	Text-to-speech	https://python.langchain.com/docs/integrations/tools/google_cloud_texttospeech
+Google Drive	Yes	Yes	Proprietary	Google Drive access	https://python.langchain.com/docs/integrations/tools/google_drive
+Google Finance	Yes	Yes	Proprietary	Financial data	https://python.langchain.com/docs/integrations/tools/google_finance
+Google Jobs	Yes	Yes	Proprietary	Job search	https://python.langchain.com/docs/integrations/tools/google_jobs
+Google Lens	Yes	Yes	Proprietary	Visual search, recognition	https://python.langchain.com/docs/integrations/tools/google_lens
+Google Places	Yes	Yes	Proprietary	Location-based services	https://python.langchain.com/docs/integrations/tools/google_places
+Google Scholar	Yes	Yes	Proprietary	Scholarly article search	https://python.langchain.com/docs/integrations/tools/google_scholar
+Google Search	Yes	Yes	Proprietary	Search engine	https://python.langchain.com/docs/integrations/tools/google_search
+Google Serper	No	Yes	Commercial	SERP scraping	https://python.langchain.com/docs/integrations/tools/google_serper
+Google Trends	Yes	Yes	Proprietary	Trend data	https://python.langchain.com/docs/integrations/tools/google_trends
+Gradio	No	No	Open source	Machine learning UIs	https://python.langchain.com/docs/integrations/tools/gradio_tools
+GraphQL	No	No	Open source	API queries	https://python.langchain.com/docs/integrations/tools/graphql
+HuggingFace Hub	No	No	Open source	Hugging Face models, datasets	https://python.langchain.com/docs/integrations/tools/huggingface_tools
+Human as a tool	No	No	N/A	Human input	https://python.langchain.com/docs/integrations/tools/human_tools
+IFTTT WebHooks	No	Yes	Commercial	Web service automation	https://python.langchain.com/docs/integrations/tools/ifttt
+Ionic Shopping	No	Yes	Commercial	Shopping	https://python.langchain.com/docs/integrations/tools/ionic_shopping
+Lemon Agent	No	Yes	Commercial	Lemon AI interaction	https://python.langchain.com/docs/integrations/tools/lemonai
+Memorize	No	No	Open source	Fine-tune LLM to memorize information using unsupervised learning	https://python.langchain.com/docs/integrations/tools/memorize
+Nuclia	No	Yes	Commercial	Indexing of unstructured data	https://python.langchain.com/docs/integrations/tools/nuclia
+OpenWeatherMap	No	Yes	Commercial	Weather data	https://python.langchain.com/docs/integrations/tools/openweathermap
+Polygon Stock Market API	No	Yes	Commercial	Stock market data	https://python.langchain.com/docs/integrations/tools/polygon
+PubMed	No	No	Open source	Biomedical literature	https://python.langchain.com/docs/integrations/tools/pubmed
+Python REPL	No	No	Open source	Python shell	https://python.langchain.com/docs/integrations/tools/python
+Reddit Search	No	No	Open source	Reddit search	https://python.langchain.com/docs/integrations/tools/reddit_search
+Requests	No	No	Open source	HTTP requests	https://python.langchain.com/docs/integrations/tools/requests
+SceneXplain	No	No	Open source	Model explanations	https://python.langchain.com/docs/integrations/tools/sceneXplain
+Search	No	No	Open source	Query various search services	https://python.langchain.com/docs/integrations/tools/search_tools
+SearchApi	No	Yes	Commercial	Query various search services	https://python.langchain.com/docs/integrations/tools/searchapi
+SearxNG	No	No	Open source	Privacy-focused search	https://python.langchain.com/docs/integrations/tools/searx_search
+Semantic Scholar API	No	No	Open source	Academic paper search	https://python.langchain.com/docs/integrations/tools/semanticscholar
+SerpAPI	No	Yes	Commercial	Search engine results page scraping	https://python.langchain.com/docs/integrations/tools/serpapi
+StackExchange	No	No	Open source	Stack Exchange access	https://python.langchain.com/docs/integrations/tools/stackexchange
+Tavily Search	No	Yes	Commercial	Question answering	https://python.langchain.com/docs/integrations/tools/tavily_search
+Twilio	No	Yes	Commercial	Communication APIs	https://python.langchain.com/docs/integrations/tools/twilio
+Wikidata	No	No	Open source	Structured data access	https://python.langchain.com/docs/integrations/tools/wikidata
+Wikipedia	No	No	Open source	Wikipedia access	https://python.langchain.com/docs/integrations/tools/wikipedia
+Wolfram Alpha	No	Yes	Proprietary	Computational knowledge	https://python.langchain.com/docs/integrations/tools/wolfram_alpha
+Yahoo Finance News	No	Yes	Commercial	Financial news	https://python.langchain.com/docs/integrations/tools/yahoo_finance_news
+Youtube	No	Yes	Commercial	YouTube access	https://python.langchain.com/docs/integrations/tools/youtube
+Zapier Natural Language Actions	No	Yes	Commercial	Workflow automation	https://python.langchain.com/docs/integrations/tools/zapier

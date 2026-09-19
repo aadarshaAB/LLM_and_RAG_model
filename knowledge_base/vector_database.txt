@@ -1,0 +1,67 @@
+A vector database, vector store or vector search engine is a database that stores and retrieves embeddings of data in vector space.[1] Vector databases typically implement approximate nearest neighbor algorithms so users can search for records semantically similar to a given input, unlike traditional databases which primarily look up records by exact match.[2][3] Use-cases for vector databases include similarity search, semantic search, multi-modal search, recommendations engines, object detection, and retrieval-augmented generation (RAG).[1]
+
+Vector embeddings are mathematical representations of data in a high-dimensional space. In this space, each dimension corresponds to a feature of the data, with the number of dimensions ranging from a few hundred to tens of thousands, depending on the complexity of the data being represented. Each data item is represented by one vector in this space. Words, phrases, or entire documents, as well as images, audio, and other types of data, can all be vectorized.[1]
+
+These feature vectors may be computed from the raw data using machine learning methods such as feature extraction algorithms, word embeddings[4] or deep learning networks. The goal is that semantically similar data items receive feature vectors close to each other.
+
+Vector retrieval can be combined with metadata filtering, lexical or sparse retrieval, graph-based retrieval, and multimodal retrieval to support a range of filtered and hybrid retrieval workflows.[5][6]
+
+Techniques
+Common techniques for similarity search on high-dimensional vectors include:
+
+Hierarchical Navigable Small World (HNSW) graphs
+Locality-sensitive hashing (LSH) and sketching
+Product quantization (PQ)
+Inverted files
+These techniques may also be combined in vector search systems.[7]
+
+In recent benchmarks, HNSW-based implementations have been among the best performers.[8][9] Conferences such as the International Conference on Similarity Search and Applications (SISAP)[10] and the Conference on Neural Information Processing Systems (NeurIPS)[11] have hosted competitions on vector search in large databases.
+
+Applications
+Vector databases are used in a wide range of machine learning applications including similarity search, semantic search, multi-modal search, recommendations engines, object detection, and retrieval-augmented generation.[1]
+
+Retrieval-augmented generation
+Main article: Retrieval-augmented generation
+An especially common use-case for vector databases is in retrieval-augmented generation (RAG), a method to improve domain-specific responses of large language models. The retrieval component of a RAG can be any search system, but is most often implemented as a vector database. Text documents describing the domain of interest are collected, and for each document or document section, a feature vector (known as an "embedding") is computed, typically using a deep learning network, and stored in a vector database along with a link to the document. Given a user prompt, the feature vector of the prompt is computed, and the database is queried to retrieve the most relevant documents. These are then automatically added into the context window of the large language model, and the large language model proceeds to create a response to the prompt given this context.[12]
+
+Implementations
+This is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by editing the page to add missing items, with references to reliable sources.
+Name	License
+Aerospike[13][14]	Proprietary
+AllegroGraph[15][16]	Proprietary (Managed Service)
+AlloyDB AI[17]	Proprietary (Managed Service)
+Apache Cassandra[18][19]	Apache License 2.0
+Azure Cosmos DB[20]	Proprietary (Managed Service)
+Chroma[21][22]	Apache License 2.0[23]
+ClickHouse[24]	Apache License 2.0
+Couchbase[25][26]	BSL 1.1[27]
+CrateDB[28]	Apache License 2.0
+DataStax[29]	Proprietary (Managed Service)
+Db2[30]	Proprietary (Managed Service or License)
+Elasticsearch[31]	Server Side Public License, Elastic License[32]
+JaguarDB[33][34]	Proprietary
+LanceDB[35][36]	Apache License 2.0[37]
+LlamaIndex[38]	MIT License[39]
+MariaDB[40][41]	GPL v2[42]
+Marqo[43]	Apache License 2.0[44]
+Meilisearch[45][46]	MIT License[47]
+Milvus[48]	Apache License 2.0[49]
+MongoDB Atlas[50]	Server Side Public License (Managed service)
+MyScaleDB[51]	Apache License 2.0
+Neo4j[52][53]	GPL v3 (Community Edition)[54]
+ObjectBox[55]	Apache License 2.0[56]
+OpenSearch[57][58]	Apache License 2.0[59]
+Oracle Database[60]	Proprietary (Managed Service or License)
+Pinecone[61]	Proprietary (Managed Service)
+Pixeltable (Incremental Embedding)[62]	Apache License 2.0[59]
+Postgres with pgvector[63]	PostgreSQL License[64]
+Qdrant[65]	Apache License 2.0[66]
+Redis Stack[67][68]	Redis Source Available License Archived 2024-01-31 at the Wayback Machine[69]
+ScyllaDB[70][71]	Proprietary Source Available
+Snowflake[72]	Proprietary (Managed Service)
+SurrealDB[73]	BSL 1.1[74]
+TiDB[75]	Apache License 2.0[76]
+Typesense[77]	GPL v3 (Community Edition)[78]
+Vespa[79]	Apache License 2.0[80]
+Weaviate[81][82]	BSD 3-Clause[83]
+YDB[84][85]	Apache License 2.0[86]

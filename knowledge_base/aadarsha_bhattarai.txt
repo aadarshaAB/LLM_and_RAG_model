@@ -1,0 +1,61 @@
+Aadarsha Bhattarai
++977-9840150573 | Kathmandu, Nepal
+aadarshabhattarai873@gmail.com | 
+github.com/aadarshaAB| 
+Professional Summary
+LinkedIn/aadarsha-bhattarai
+Data Quality Engineer with hands-on experience in SQL, Python automation, ETL validation, and
+enterprise data quality assurance. Proven track record of reducing manual effort, improving data accu
+racy across multi-source pipelines, and delivering actionable insights to both technical and non-technical
+stakeholders. Experienced in validating large-scale US healthcare datasets, developing automated qual
+ity checks, and ensuring data integrity across complex ETL pipelines
+Skills
+SQL & Databases: Advanced SQL(Window Functions, CTEs, Optimizations), PostgreSQL, Oracle
+DB, PL/SQL
+Data Quality & Testing: ETL validation, Data QA, Test Case & Test Script Development, Root
+Cause Analysis
+Cloud & Data Engineering: Amazon S3, Databricks , Data Ingestion Pipelines
+Programming : Python
+Tools & Platforms: Oracle Data Integrator, Docker, Git, Bitbucket, Confluence
+Domain Knowledge: US Healthcare data (medical/pharmacy claims, eligibility), ETL pipelines
+Experience
+Data Quality Engineer | Infinite Computer Solutions (Cotiviti)
+Jan 2025– Present
+• Validated healthcare data ingestion for major US payers AETNA, BCBS, Highmark ,ensuring
+accurate transformation of medical/pharmacy claims and eligibility data into Cotiviti’s analytics
+databases, directly supporting downstream business decisions.
+• Created automation tools in SQL and Python to validate outputs of ETLs, minimizing manual quality
+checks and boosting error detection in enterprise healthcare data pipelines.
+• Enhanced internal data-browsing and reporting applications with new features, reducing time-to
+insight for analysts and improving cross-team data visibility.
+• Completed source to target data validation and reconciliation for multiple healthcare data sources,
+guaranteeing data accuracy and consistency.
+Backend Developer Intern | Navya Advisors Ltd.
+May 2024– Oct 2024
+• Led end-to-end backend development of an affiliate tracking system for capital banks, giving leader
+ship granular visibility into clicks, conversions, and revenue- data previously unavailable in
+any structured form.
+• Designed and optimized database schemas, improving data retrieval speeds and storage efficiency to
+support faster reporting turnaround for business stakeholders.
+• Built Built RESTful APIs to gather and provide application information for downstream reporting
+and analytics.
+• Developed dynamic performance reporting dashboards delivering engagement and revenue insights,
+directly used by management to guide affiliate strategy decisions.
+Projects
+Near-Real-Time Batch ETL Pipeline & Data Quality Validation Python, Amazon S3, boto3,
+Databricks, Delta Lake, SQL
+• Designed and implemented a near-real-time batch ETL pipeline ingesting GitHub Events API
+data at 30-second intervals.
+1
+• Automated raw data ingestion into Amazon S3 using Python/boto3 and loaded datasets into
+Bronze Delta Tables in Databricks following the Medallion Architecture.
+• Developed Silver and Gold transformation layers using SQL, applying CTEs, Joins, Window
+Functions, deduplication, timestamp standardization, and aggregations.
+• Implemented data quality checks including row-count reconciliation, null/duplicate detection,
+schema validation, timestamp validation, and business-rule validation across pipeline layers.
+Education
+Nagarjuna College of IT, Sankhamul, Lalitpur
+BSc. Computer Science & Information Technology (CSIT)
+Sept 2019– Nov 2024
+Relevant Coursework: Advanced Database Systems, Object-Oriented Programming, Statistics, Soft
+ware Engineering, Design & Analysis of Algorithm
